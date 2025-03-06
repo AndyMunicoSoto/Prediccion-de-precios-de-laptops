@@ -25,3 +25,11 @@ Este proyecto tiene como objetivo predecir los precios de laptops en base a sus 
 |XGBoost| 0.990709|	16464.269478|	128.313170|
 |LightGBM| 0.993182|	12082.193100|	109.919030|
 |CatBoost| 0.995001|	8859.146202|	94.123038|
+
+## Conclusiones
+
+* El R2 de **CatBoost** es es el más alto, lo que indica que tiene las mejores predicciones. Seguido de **LigtGBM** y **XGBoost** con 0.993 y 0.9903 respectivamente. 
+* El MSE de **CatBoost** descatada nuevamente aunque es alto pero es menor a los otros.
+* El RMSE de **CatBoost** es relativamente alto pero nuevamente es menor a los otros modelos.
+* De todos los modelos evaluados, el que peores metricas es la de **Regresion Lineal** en cambio los modelos basados en arboles son las que tiene mejores metricas descatando **CatBoost** con los mejores resultados.
+  
